@@ -3,6 +3,11 @@ from app.io.input import input_text_from_console, read_text_from_file, read_text
 from app.io.output import output_text_to_console, write_text_to_file
 
 def main():
+    """
+    Основна функція, яка виконує всі дії програми.
+
+    Вводить текст з консолі, зчитує текст з файлів, виводить результати у консоль та записує їх до файлу.
+    """
     # Введення тексту з консолі
     text_console = input_text_from_console()
     # Зчитування тексту з файлу за допомогою вбудованих можливостей Python
